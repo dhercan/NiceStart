@@ -16,19 +16,18 @@
         android:scaleType="fitStart"
         android:src="@drawable/girl"
         android:background="@drawable/gradient"
-        android:layout_margin="0dp"
         />
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/rocket"
 
 
         app:layout_constraintEnd_toEndOf="@id/main"
         app:layout_constraintStart_toStartOf="@id/main"
         app:layout_constraintTop_toTopOf="@id/main"
-
+        
 
         app:tint="@color/Teal5" />
     <View
@@ -43,6 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/logo"
+
             app:layout_constraintStart_toStartOf="@id/guidelineI"
             app:layout_constraintEnd_toEndOf="@id/guidelineD"
             app:startIconDrawable="@drawable/usr">
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/pass">
-
+        >
 
 
 
@@ -105,9 +105,7 @@
         
         app:layout_constraintStart_toStartOf="@id/guidelineI"
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
-        app:layout_constraintTop_toBottomOf="@id/TextInputLayout2"
-    >
-
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayout2">
 
     </Button>
 
@@ -120,14 +118,12 @@
         android:textSize="10pt"
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
         app:layout_constraintStart_toEndOf="@id/guidelineI"
-        app:layout_constraintTop_toBottomOf="@id/b1"
-        app:layout_constraintBottom_toBottomOf="@id/main">
-
+        app:layout_constraintTop_toBottomOf="@id/b1">
 
     </Button>
 
-
-    <!--<Button
+<!--
+    <Button
         android:id="@+id/b3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -141,21 +137,22 @@
         app:layout_constraintStart_toStartOf="@id/main"
         >
 
-    </Button>-->
+    </Button>
+    -->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.25" />
+        app:layout_constraintGuide_percent="0.35" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.65" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
