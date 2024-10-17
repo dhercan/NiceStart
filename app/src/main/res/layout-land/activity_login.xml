@@ -45,17 +45,17 @@
 
             app:layout_constraintStart_toStartOf="@id/guidelineI"
             app:layout_constraintEnd_toEndOf="@id/guidelineD"
-            app:startIconDrawable="@drawable/usr">
+            app:startIconDrawable="@drawable/usr"
+            style="@style/CajaInput">
 
             <EditText
                 android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="Nombre"
-                android:background="@color/white"
-                android:alpha="0.5"
+
                 android:inputType="text"
-                android:textColorHint="@color/white"
+
                 android:textSize="10pt"
 
 
@@ -68,7 +68,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/TextInputLayout1"
-
+        style="@style/CajaInput"
         app:layout_constraintStart_toStartOf="@id/guidelineI"
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
         app:passwordToggleEnabled="true"
@@ -83,10 +83,9 @@
             android:layout_height="match_parent"
             android:textSize="10pt"
             android:hint="Password"
-            android:background="@color/white"
-            android:alpha="0.5"
+
             android:inputType="text"
-            android:textColorHint="@color/white"
+
 
 
 
@@ -97,10 +96,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Teal5"
-        android:text="OK"
+        android:text="LOGIN"
 
         android:textSize="10pt"
-
+        style="@style/buttonflat"
 
         
         app:layout_constraintStart_toStartOf="@id/guidelineI"
@@ -114,8 +113,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Teal5"
-        android:text="Cancel"
+        android:text="SIGNUP"
+        android:onClick="openSignup"
         android:textSize="10pt"
+        style="@style/buttonoutlined"
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
         app:layout_constraintStart_toEndOf="@id/guidelineI"
         app:layout_constraintTop_toBottomOf="@id/b1">
