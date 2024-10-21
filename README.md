@@ -2,9 +2,9 @@
 De momento ya están realizadas las versiones Portrait y Landscape de la pantalla **login** y la pantalla **signup**
 Estas son algunas capturas de la aplicación:
 ![login activity](img/cap1.png)
-![login activity](img/cap2.png)
-![login activity](img/cap3.png)
-![login activity](img/cap4.png)
+![login activity](img/cap2.PNG)
+![login activity](img/cap3.PNG)
+![login activity](img/cap4.PNG)
 
 Pronto más cambios!
 
