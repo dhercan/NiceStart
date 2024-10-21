@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+<ImageView
+    android:id="@+id/girl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitStart"
+    android:src="@drawable/girl"
+    android:background="@drawable/gradient"
+    android:layout_margin="0dp"
+    />
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/rocket"
+
+
+    app:layout_constraintEnd_toEndOf="@id/main"
+    app:layout_constraintStart_toStartOf="@id/main"
+    app:layout_constraintTop_toTopOf="@id/main"
+
+
+    app:tint="@color/Teal5" />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.2"
+    android:background="@color/white"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="56dp" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/TextInputLayout1"
+    app:layout_constraintTop_toBottomOf="@id/logo"
+    app:layout_constraintStart_toStartOf="@id/guidelineI"
+    app:layout_constraintEnd_toEndOf="@id/guidelineD"
+    app:startIconDrawable="@drawable/usr"
+
+    style="@style/CajaInput">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Nombre"
+
+
+        android:inputType="text"
+        android:textSize="8pt"
+
+
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/TextInputLayout2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/TextInputLayout1"
+    app:startIconDrawable="@drawable/mail"
+    style="@style/CajaInput"
+
+    app:layout_constraintStart_toStartOf="@id/guidelineI"
+    app:layout_constraintEnd_toEndOf="@id/guidelineD"
+    app:passwordToggleEnabled="false"
+
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="8pt"
+        android:hint="Correo"
+
+        android:inputType="text"
+
+
+
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputLayout3"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayout2"
+        app:layout_constraintStart_toStartOf="@id/guidelineI"
+        app:layout_constraintEnd_toEndOf="@id/guidelineD"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/pass"
+        style="@style/CajaInput">
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Contraseña"
+
+
+            android:inputType="textPassword"
+            android:textSize="8pt"
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputLayout4"
+        app:layout_constraintTop_toBottomOf="@id/TextInputLayout3"
+        app:layout_constraintStart_toStartOf="@id/guidelineI"
+        app:layout_constraintEnd_toEndOf="@id/guidelineD"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/pass"
+        style="@style/CajaInput">
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Repite contraseña"
+
+
+            android:inputType="textPassword"
+            android:textSize="8pt"
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/b1"
+    android:text="SIGNUP"
+
+    android:onClick="openMain"
+    app:layout_constraintEnd_toEndOf="@id/guidelineD"
+    app:layout_constraintStart_toStartOf="@id/guidelineI"
+    app:layout_constraintTop_toBottomOf="@id/TextInputLayout4"
+    style="@style/buttonflat">
+
+
+
+
+</Button>
+
+
+
+
+<Button
+    android:id="@+id/b2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="CANCEL"
+    android:onClick="openLogin"
+    android:textSize="10pt"
+    style="@style/buttonoutlined"
+    app:layout_constraintEnd_toEndOf="@id/guidelineD"
+    app:layout_constraintStart_toEndOf="@id/guidelineI"
+    app:layout_constraintTop_toBottomOf="@id/b1">
+    <!--app:layout_constraintHorizontal_bias="0.0"-->
+
+    <!--app:layout_constraintVertical_bias="0.0"-->
+
+
+</Button>
+    <!--<Button
+    android:id="@+id/b3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0px"
+    android:text="Registro"
+    android:backgroundTint="@color/Teal5"
+    android:textSize="10pt"
+    app:layout_constraintTop_toBottomOf="@id/b2"
+    app:layout_constraintEnd_toEndOf="@id/main"
+    app:layout_constraintBottom_toBottomOf="@id/main"
+    app:layout_constraintStart_toStartOf="@id/main"
+    >
+
+</Button>-->
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guidelineI"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.30" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guidelineD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.70" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
