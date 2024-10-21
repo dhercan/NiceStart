@@ -99,7 +99,7 @@
     <Button
         android:id="@+id/b1"
         android:text="LOGIN"
-
+        android:onClick="openMain"
 
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
        app:layout_constraintStart_toStartOf="@id/guidelineI"

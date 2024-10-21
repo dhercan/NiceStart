@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Teal5"
         android:text="LOGIN"
-
+        android:onClick="openMain"
         android:textSize="10pt"
         style="@style/buttonflat"
 
