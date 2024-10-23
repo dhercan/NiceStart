@@ -3,7 +3,8 @@
 ### Primera aplicación creada en Desarrollo de Interfaces
 
 
-De momento ya están realizadas las versiones Portrait y Landscape de la pantalla **login** y la pantalla **signup**
+De momento ya están realizadas las versiones Portrait y Landscape de la pantalla **login** y la pantalla **signup**.
+
 Estas son algunas capturas de la aplicación:
 
 
