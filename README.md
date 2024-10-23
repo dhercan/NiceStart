@@ -12,6 +12,17 @@ Estas son algunas capturas de la aplicación:
 ![login activity](img/cap3.PNG)
 ![login activity](img/cap4.PNG)
 
+Aquí un extracto del código que hace que funcionen los botones:
+`    public void openSignup(View v) {
+        Intent intent = new Intent(login.this, Signup.class);
+        startActivity(intent);
+
+    }
+    public void openMain(View v){
+        Intent intent = new Intent(login.this, MainActivity.class);
+        startActivity(intent);
+    } `
+
 Pronto más cambios!
 
 >Este repositorio tiene una licencia
