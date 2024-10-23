@@ -15,7 +15,8 @@ Estas son algunas capturas de la aplicación:
 Aquí un extracto del código que hace que funcionen los botones:
 
 
-```   public void openSignup(View v) {
+```
+public void openSignup(View v) {
 
         Intent intent = new Intent(login.this, Signup.class);
         
@@ -24,7 +25,8 @@ Aquí un extracto del código que hace que funcionen los botones:
     }
 ```
 
-```   public void openMain(View v){
+```
+public void openMain(View v){
     
         Intent intent = new Intent(login.this, MainActivity.class);
         
