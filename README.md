@@ -20,6 +20,7 @@ Aquí un extracto del código que hace que funcionen los botones:
         startActivity(intent);
     }
 `
+
 `
     public void openMain(View v){
         Intent intent = new Intent(login.this, MainActivity.class);
