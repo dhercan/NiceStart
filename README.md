@@ -9,6 +9,7 @@ Estas son algunas capturas de la aplicación:
 
 
 ![login activity](img/cap1.png)
+
 ![login activity](img/cap2.PNG)
 ![login activity](img/cap3.PNG)
 ![login activity](img/cap4.PNG)
