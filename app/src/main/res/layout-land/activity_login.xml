@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Teal1"
-    tools:context=".login"
+    tools:context=".Login"
     >
 
     <ImageView
@@ -14,9 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart"
-        android:src="@drawable/girl"
+
         android:background="@drawable/gradient"
         />
+    <!--        android:src="@drawable/girl"-->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="100dp"

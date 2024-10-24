@@ -12,11 +12,12 @@
     android:id="@+id/girl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scaleType="fitStart"
-    android:src="@drawable/girl"
+    android:scaleType="fitEnd"
+
     android:background="@drawable/gradient"
     android:layout_margin="0dp"
     />
+    <!--android:src="@drawable/girl"-->
 <ImageView
     android:id="@+id/logo"
     android:layout_width="150dp"
