@@ -12,7 +12,11 @@ Estas son algunas capturas de la aplicación:
 
 ![login activity](img/cap2.PNG)
 ![login activity](img/cap3.PNG)
+
 ![login activity](img/cap4.PNG)
+![login activity](img/cap5.png)
+
+
 
 Aquí un extracto del código que hace que funcionen los botones:
 
