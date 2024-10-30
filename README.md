@@ -47,6 +47,12 @@ public void openMain(View v){
 
 Se han añadido animaciones a la pantalla de inicio, así como la pantalla de perfil.
 
+<iframe width="560" height="315"
+src="videos/pantalla_inicio.webm"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+
 Pronto más cambios!
 
 >Este repositorio tiene una licencia
