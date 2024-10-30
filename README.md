@@ -16,6 +16,8 @@ Estas son algunas capturas de la aplicación:
 ![login activity](img/cap4.PNG)
 ![login activity](img/cap5.png)
 
+![login activity](img/Cap6.PNG)
+
 
 
 Aquí un extracto del código que hace que funcionen los botones:
@@ -40,6 +42,10 @@ public void openMain(View v){
         
     } 
 ```
+
+#### Últimos cambios
+
+Se han añadido animaciones a la pantalla de inicio, así como la pantalla de perfil.
 
 Pronto más cambios!
 
