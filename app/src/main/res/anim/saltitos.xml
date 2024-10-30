@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        />
+
+    <rotate
+        android:startOffset="1000"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="680"
+        />
+    <translate
+        android:duration="500"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="-50%p"
+
+
+        />
+    <translate
+        android:startOffset="500"
+        android:duration="450"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="50%p"
+
+
+        />
+    <translate
+        android:startOffset="950"
+        android:duration="350"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="-30%p"
+
+        />
+    <translate
+        android:startOffset="1300"
+        android:duration="380"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="30%p"
+
+        />
+
+    <translate
+        android:startOffset="1680"
+        android:duration="270"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="-18%p"
+
+        />
+    <translate
+        android:startOffset="1950"
+        android:duration="300"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="18%p"
+
+        />
+
+    <translate
+        android:startOffset="2250"
+        android:duration="200"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="-10%p"
+
+        />
+
+    <translate
+        android:startOffset="2450"
+        android:duration="230"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="10%p"
+
+        />
+
+</set>

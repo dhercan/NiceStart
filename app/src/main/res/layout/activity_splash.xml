@@ -17,12 +17,11 @@
         />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="354dp"
-        android:layout_height="221dp"
+        android:id="@+id/txt_titulo"
+        android:layout_width="374dp"
+        android:layout_height="85dp"
         android:fontFamily="@font/architects_daughter"
-        android:text="Nice Start
-        Nice Start"
+        android:text="Nice Start"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/Teal4"
@@ -30,10 +29,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.858" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <ImageView
         android:id="@+id/logoSplash"

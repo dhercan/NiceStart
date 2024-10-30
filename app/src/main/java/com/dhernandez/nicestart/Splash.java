@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,8 +24,11 @@ public class Splash extends AppCompatActivity {
         openApp();
 
         ImageView logoSplash = findViewById(R.id.logoSplash);
+        TextView titulo = findViewById(R.id.txt_titulo);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.blink);
+        Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.saltitos);
         logoSplash.startAnimation(myanim);
+        titulo.startAnimation(myanim2);
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
