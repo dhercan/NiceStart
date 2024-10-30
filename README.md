@@ -47,9 +47,10 @@ public void openMain(View v){
 
 Se han añadido animaciones a la pantalla de inicio, así como la pantalla de perfil.
 
-<iframe width="560" height="315"
-src="https://youtu.be/lnR-wquu8TEm"
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" 
+height="315" src="https://youtu.be/lnR-wquu8TE" 
+frameborder="0" allow="accelerometer; 
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
 
