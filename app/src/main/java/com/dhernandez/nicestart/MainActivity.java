@@ -1,5 +1,6 @@
 package com.dhernandez.nicestart;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -12,11 +13,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -95,7 +99,8 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Login.class);
             startActivity(intent);
         }else if(id==R.id.mas) {
-            Toast.makeText(this, "Mas cositas coming", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Mas cositas coming", Toast.LENGTH_SHORT).show();
+            showAlertDialogButtonClicked(MainActivity.this);
         }
         return super.onOptionsItemSelected(item);
     }
@@ -110,5 +115,40 @@ public class MainActivity extends AppCompatActivity {
             swipeLayout.setRefreshing(false);
         }
     };
+
+    public void showAlertDialogButtonClicked(MainActivity mainActivity){
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
+
+        builder.setTitle("Alerta");
+        builder.setMessage("Quieres recibir más info?");
+        builder.setIcon(R.drawable.usr);
+        builder.setCancelable(false);
+
+        //Botones
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(MainActivity.this, "Te enviaremos actualizaciones", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(MainActivity.this, "Tranqui, NO te enviaremos actualizaciones", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        builder.setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                //Toast.makeText(MainActivity.this, "Te enviaremos actualizaciones", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+
+    }
 
 }
