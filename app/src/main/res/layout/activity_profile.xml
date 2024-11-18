@@ -41,4 +41,15 @@
         android:fontFamily="fantasy"/>
 
 
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/animationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:lottie_url="@raw/botes"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/main"-->
+<!--        app:layout_constraintTop_toTopOf="@id/main"/>-->
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

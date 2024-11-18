@@ -88,12 +88,7 @@
             android:layout_height="match_parent"
             android:textSize="8pt"
             android:hint="Password"
-
             android:inputType="text"
-
-
-
-
             />
     </com.google.android.material.textfield.TextInputLayout>
 
