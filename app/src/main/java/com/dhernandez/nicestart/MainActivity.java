@@ -6,6 +6,8 @@ import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,10 +16,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class MainActivity extends AppCompatActivity {
 
     TextView myContext;
+    SwipeRefreshLayout swipeLayout;
+    WebView miVisorWeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +32,23 @@ public class MainActivity extends AppCompatActivity {
 
         myContext = findViewById(R.id.textView2);
         registerForContextMenu(myContext);
+
+
+
+        //Para actualizar
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
+
+        //La vista dentro es un webview con permiso para zoom
+
+//        miVisorWeb.getSettings().setJavaScriptEnabled(true);
+//        miVisorWeb.getSettings().setBuiltInZoomControls(true);
+        miVisorWeb=findViewById(R.id.miVisorWeb);
+        WebSettings webSettings = miVisorWeb.getSettings();
+        webSettings.setLoadWithOverviewMode(true);
+        webSettings.setUseWideViewPort(true);
+        miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -61,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
     @Override
    public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
@@ -75,5 +99,16 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    protected SwipeRefreshLayout.OnRefreshListener
+            mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            Toast toast0 = Toast.makeText(MainActivity.this, "Hi there! I don't exist :)", Toast.LENGTH_LONG);
+            toast0.show();
+            miVisorWeb.reload();
+            swipeLayout.setRefreshing(false);
+        }
+    };
 
 }
