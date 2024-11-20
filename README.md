@@ -61,7 +61,7 @@ Noviembre 2024: Se ha añadido un Swiper para actualizar la imagen. Un menú con
 
 
 :tv:[![Animación de inicio](https://img.youtu.be/lnR-wquu8TE/0.jpg)](https://youtu.be/lnR-wquu8TE):tv:
-
+![login activity](videos/pantalla_inicio.gif)
 
 Pronto más cambios!
 
