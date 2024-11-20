@@ -1,4 +1,4 @@
-# Nice Start 
+# Nice Start  :rocket::rocket:
 
 ### Primera aplicación creada en Desarrollo de Interfaces
 
@@ -60,7 +60,7 @@ Octubre 2024: Se han añadido animaciones a la pantalla de inicio, así como la 
 Noviembre 2024: Se ha añadido un Swiper para actualizar la imagen. Un menú contextual y un cuadro de diáogo.
 
 
-[![Animación de inicio](https://img.youtu.be/lnR-wquu8TE/0.jpg)](https://youtu.be/lnR-wquu8TE)
+:tv:[![Animación de inicio](https://img.youtu.be/lnR-wquu8TE/0.jpg)](https://youtu.be/lnR-wquu8TE):tv:
 
 
 Pronto más cambios!
