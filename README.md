@@ -8,6 +8,17 @@ De momento ya están realizadas las versiones Portrait y Landscape de la pantall
 Estas son algunas capturas de la aplicación:
 
 
+<img src="img/cap1.png" height="500"/>
+
+<img src="img/cap2.PNG" height="500"/>
+<img src="img/cap3.PNG" height="500"/>
+
+<img src="img/cap4.PNG" height="500"/>
+<img src="img/cap5.png" height="500"/>
+
+<img src="img/cap6.PNG" height="500"/>
+<img src="img/cap7.PNG" height="500"/>
+
 ![login activity](img/cap1.png)
 
 ![login activity](img/cap2.PNG)
@@ -61,6 +72,7 @@ Noviembre 2024: Se ha añadido un Swiper para actualizar la imagen. Un menú con
 
 
 :tv:[![Animación de inicio](https://img.youtu.be/lnR-wquu8TE/0.jpg)](https://youtu.be/lnR-wquu8TE):tv:
+
 <img src="videos/pantalla_inicio.gif" alt="login activity" width="350"/>
 
 
