@@ -14,18 +14,9 @@ Estas son algunas capturas de la aplicación:
 
 <img src="img/cap4.PNG" height="500"/> <img src="img/cap5.png" height="500"/>
 
-<img src="img/cap6.PNG" height="500"/> <img src="img/cap7.PNG" height="500"/>
+<img src="img/Cap6.PNG" height="500"/> <img src="img/Cap7.PNG" height="500"/>
 
-![login activity](img/cap1.png)
 
-![login activity](img/cap2.PNG)
-![login activity](img/cap3.PNG)
-
-![login activity](img/cap4.PNG)
-![login activity](img/cap5.png)
-
-![login activity](img/Cap6.PNG)
-![login activity](img/Cap7.PNG)
 
 El menú contextual y el menú desplegable permiten diferentes opciones. 
 Entre ellas disparar un cuadro de diálogo.
