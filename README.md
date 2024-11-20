@@ -8,16 +8,13 @@ De momento ya están realizadas las versiones Portrait y Landscape de la pantall
 Estas son algunas capturas de la aplicación:
 
 
-<img src="img/cap1.png" height="500"/>
+<img src="img/cap1.png" width="500"/>
 
-<img src="img/cap2.PNG" height="500"/>
-<img src="img/cap3.PNG" height="500"/>
+<img src="img/cap2.PNG" height="500"/> <img src="img/cap3.PNG" height="500"/>
 
-<img src="img/cap4.PNG" height="500"/>
-<img src="img/cap5.png" height="500"/>
+<img src="img/cap4.PNG" height="500"/> <img src="img/cap5.png" height="500"/>
 
-<img src="img/cap6.PNG" height="500"/>
-<img src="img/cap7.PNG" height="500"/>
+<img src="img/cap6.PNG" height="500"/> <img src="img/cap7.PNG" height="500"/>
 
 ![login activity](img/cap1.png)
 
