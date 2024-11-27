@@ -156,5 +156,23 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
 
+    <ImageView
+        android:id="@+id/capa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loti"
+        android:layout_width="274dp"
+        android:layout_height="271dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/main"
+        android:layout_marginBottom="90dp"
+        app:lottie_rawRes="@raw/snail"
+        app:lottie_speed="2"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
