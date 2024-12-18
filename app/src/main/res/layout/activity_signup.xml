@@ -54,7 +54,7 @@
         android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Nombre"
+        android:hint="@string/nombre"
 
 
         android:inputType="text"
@@ -87,7 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="8pt"
-        android:hint="Correo"
+        android:hint="@string/correo"
 
         android:inputType="text"
 
@@ -109,7 +109,7 @@
             android:id="@+id/password1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Contraseña"
+            android:hint="@string/password"
 
 
             android:inputType="textPassword"
@@ -132,7 +132,7 @@
             android:id="@+id/password2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Repite contraseña"
+            android:hint="@string/repite_contrase"
 
 
             android:inputType="textPassword"
@@ -145,7 +145,7 @@
 
 <Button
     android:id="@+id/b1"
-    android:text="SIGNUP"
+    android:text="@string/signup"
 
     android:onClick="openMain"
     app:layout_constraintEnd_toEndOf="@id/guidelineD"
@@ -165,7 +165,7 @@
     android:id="@+id/b2"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
-    android:text="CANCEL"
+    android:text="@string/cancel"
     android:onClick="openLogin"
     android:textSize="10pt"
     style="@style/buttonoutlined"

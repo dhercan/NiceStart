@@ -12,6 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 
@@ -34,6 +35,7 @@ public class Login extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(1500))
                 //.centerCrop()
                 //.circleCrop()
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
 
                 //.placeholder(new ColorDrawable(this.getResources().getColor(R.color.Teal3)))
                 .into(mGirl);

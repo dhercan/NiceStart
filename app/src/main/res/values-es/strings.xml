@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="login">INICIO</string>
+    <string name="signup">REGISTRO</string>
+    <string name="menu_contextual">"Menú "</string>
+    <string name="correo">Correo</string>
+    <string name="repite_contrase">Repite contraseña</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="profile">Perfil</string>
+    <string name="logout">Cierra sesión</string>
+    <string name="ver_mas">Ver más</string>
+    <string name="copy">Copiar</string>
+    <string name="downloaddeddd">Descargado</string>
+</resources>

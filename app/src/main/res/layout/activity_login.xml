@@ -54,7 +54,7 @@
                 android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Nombre"
+                android:hint="@string/nombre"
 
 
                 android:inputType="text"
@@ -87,14 +87,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="8pt"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="text"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/b1"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:onClick="openMain"
 
         app:layout_constraintEnd_toEndOf="@id/guidelineD"
@@ -128,7 +128,7 @@
         android:id="@+id/b2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="SIGNUP"
+        android:text="@string/signup"
         android:onClick="openSignup"
         android:textSize="10pt"
         style="@style/buttonoutlined"

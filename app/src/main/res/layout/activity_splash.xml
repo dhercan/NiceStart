@@ -21,7 +21,7 @@
         android:layout_width="377dp"
         android:layout_height="74dp"
         android:fontFamily="@font/architects_daughter"
-        android:text="Nice Start"
+        android:text="@string/nice_start"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/Teal4"

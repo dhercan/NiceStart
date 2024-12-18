@@ -3,17 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/perfil"
-        android:title="Profile"
+        android:title="@string/profile"
         android:icon="@drawable/man"
-        app:showAsAction="ifRoom"
-        >
-    </item>
-    <item
+        app:showAsAction="ifRoom"/>
+      <item
         android:id="@+id/logout"
-        android:title="Logout"
-        app:showAsAction="never"></item>
+        android:title="@string/logout"
+        app:showAsAction="never"/>
     <item
         android:id="@+id/mas"
-        android:title="Ver mas"
-        app:showAsAction="never"></item>
+        android:title="@string/ver_mas"
+        app:showAsAction="never"/>
 </menu>
