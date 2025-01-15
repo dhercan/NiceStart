@@ -28,6 +28,14 @@ Entre ellas disparar un cuadro de diálogo.
 ![login activity](img/Cap10.PNG)
 
 
+Se añade un Activity con un botón flotante y un botón hamburger.
+
+
+![login activity](img/Captura11.PNG)
+
+![login activity](img/Captura12.PNG)
+
+
 
 Aquí un extracto del código que hace que funcionen los botones:
 
