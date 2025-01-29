@@ -35,6 +35,13 @@ Se añade un Activity con un botón flotante y un botón hamburger.
 
 ![login activity](img/Captura12.PNG)
 
+Se añade un Activity con Button Navigation, que funciona mediante swipe y con los botones inferiores
+
+![login activity](img/Captura13.PNG)
+
+![login activity](img/Captura14.PNG)
+
+![login activity](img/Captura15.PNG)
 
 
 Aquí un extracto del código que hace que funcionen los botones:
@@ -64,8 +71,11 @@ public void openMain(View v){
 
 Octubre 2024: Se han añadido animaciones a la pantalla de inicio, así como la pantalla de perfil.
 
-Noviembre 2024: Se ha añadido un Swiper para actualizar la imagen. Un menú contextual y un cuadro de diáogo.
+Noviembre 2024: Se ha añadido un Swiper para actualizar la imagen. Un menú contextual y un cuadro de diálogo.
 
+Diciembre y enero 2025: Se añaden Activities con diferentes menús de navegación (floating button y navigation button).
+
+#### Animación del inicio
 
 :tv:[![Animación de inicio](https://img.youtu.be/lnR-wquu8TE/0.jpg)](https://youtu.be/lnR-wquu8TE):tv:
 
